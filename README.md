@@ -59,8 +59,15 @@ Ejemplo de la interfaz.
 3.  El README.md debe describir:
 	1. El diseño de arquitectura. 
 	2. La forma de ejecutar el programa localmente. 
+	
+	##Se Ejecuta mvn spring-boot:run
+	
+	
 	3. Explicar cómo se puede extender y cómo podría, por ejemplo, hacer que una función específica la implementara un proveedor de servicios diferente.
 	4. Indique la urls de Heroku
+	
+	
+	
 4.  Suba el zip del proyecto al aula con el nombre (NOMBRE-APELLIDO-ARSW-T2).
 5.  Guarde una copia de su proyecto.
 

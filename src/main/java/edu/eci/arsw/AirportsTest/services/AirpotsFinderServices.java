@@ -5,12 +5,14 @@
  */
 package edu.eci.arsw.AirportsTest.services;
 
+import edu.eci.arsw.AirportsTest.model.Airport;
 import java.io.IOException;
+import java.util.List;
 
 /**
  *
  * @author 2133832
  */
 public interface AirpotsFinderServices {
-    public String getAirpotsByName(String name) throws IOException;
+    public List<Airport> getAirpotsByName(String name) throws IOException;
 }

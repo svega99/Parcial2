@@ -42,15 +42,16 @@ public class HttpConnectionServiceImpl implements HttpConnectionService{
             StringBuffer response = new StringBuffer();
 
             while ((inputLine = in.readLine()) != null) {
+  
                 response.append(inputLine);
             }
             in.close();
 
             // print result
-            System.out.println(response.toString());
+
             return response.toString();
         } else {
-            System.out.println("GET request not worked");
+
             return "GET request not worked";
         }
 
