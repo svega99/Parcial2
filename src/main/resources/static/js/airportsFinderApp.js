@@ -12,10 +12,10 @@
       
         var mapeador = function(airpots){
             $("#keywords tbody tr").remove();
-            alert(JSON.stringify(airpots));
-            airpots=JSON.stringify(airpots);
+  
+            
              airpots.map(function(airport){
-                 var contenedor = "<tr><td class=\"lalign\">"+airport.code+"</td>  <td>"+ airport.name+"</td>  <td>"+ airport.city+"</td>  <td>"+ airport.countryCode+"</td>  </tr>";
+                 var contenedor = "<tr><td class=\"lalign\">"+airport.codigo+"</td>  <td>"+ airport.nombre+"</td>  <td>"+ airport.ciudad+"</td>  <td>"+ airport.codigoPais+"</td>  </tr>";
  
                   $("#keywords tbody").append(contenedor);
 

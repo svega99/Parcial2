@@ -60,7 +60,9 @@ Ejemplo de la interfaz.
 	1. El diseño de arquitectura. 
 	2. La forma de ejecutar el programa localmente. 
 	
-	## Se Ejecuta mvn spring-boot:run
+	### Se Ejecuta mvn spring-boot:run desde la ruta del archivo
+	
+	Desde http://localhost:8080/ se ingresa la ciudad que se quiere busacar
 	
 	
 	3. Explicar cómo se puede extender y cómo podría, por ejemplo, hacer que una función específica la implementara un proveedor de servicios diferente.
