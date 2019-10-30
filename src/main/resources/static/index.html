@@ -7,6 +7,8 @@
 
     <script src="/webjars/bootstrap/4.1.2/js/bootstrap.min.js"></script>
 	
+    
+    <script src="js/airportsFinderApp.js"></script>
 	 <link rel="stylesheet"
       href="/webjars/bootstrap/4.1.2/css/bootstrap.min.css" />
 	<script src="js/airportsFinderApp.js"></script>
@@ -23,7 +25,7 @@
 	  
 </head>
 
-<body >
+<body onload="airportFinderModule.initMap()">
 	<header>
 		<h2>AirpotsFinder</h2>
 	
@@ -54,9 +56,10 @@
   </table>
   
   
-  
+  <div id="map" style="width: 450px; height: 350px;"> </div>
   
  </div> 
+    
 	
 	
 	

@@ -14,5 +14,5 @@ import java.util.List;
  * @author 2133832
  */
 public interface AirpotsFinderServices {
-    public List<Airport> getAirpotsByName(String name) throws IOException;
+    public String getAirpotsByName(String name) throws IOException;
 }
